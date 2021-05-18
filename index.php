@@ -1,20 +1,4 @@
 <?php
-/* Asignacion aritmetica */
+require __DIR__ . '/vendor/autoload.php';
 
-$num = 9;
-
-$lang = [
-    'es'=> 'español'
-    'en'=> 'ingles'
-];
-
-/* Aritmetica */
-
-
-
-class answer
-{
-    protected $clients = []; # Mi comentario
-    
-    protected $insurers = []; // Mi comentario
-}
+echo Text\Format::upperText('hola');

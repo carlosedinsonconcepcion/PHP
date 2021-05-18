@@ -6,6 +6,6 @@ class Format
 {
     public static function upperText($value)
     {
-        ruturn strtoupper($value)
+        return strtoupper($value);
     }
 }

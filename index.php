@@ -64,3 +64,25 @@ $course = " Curso de PHP  ";
 echo trim($course);
 print("<pre>");
 echo "Quiero aprender $course, y otro texto";
+
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+#Formato de datos
+
+//Alterar
+$text = "<br><br>PHP es UN LENGUAJE, año 2021, programacion";
+#echo lcfirst($text);
+
+//Remplazar
+$slug = str_replace('PHP', "Toro lio", $text);
+#echo strtolower($slug);
+
+// Modificacion 
+
+$code = 39;
+
+/*print(str_pad($code, 8, '#', STR_PAD_BOTH));*/
+
+//echo strip_tags($text);
+
+echo mb_strtoupper($text);

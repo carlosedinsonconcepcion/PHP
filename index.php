@@ -91,4 +91,15 @@ echo mb_strtoupper($text);
 ##############################################################################
 
 $password = '123456';
-echo preg_match('/^[0-9]{6,9}$/', $password);
+var_dump((bool)preg_match('/^[0-9]{6,9}$/', $password));
+
+#EXPRESIONES REGULARES
+/*
+/:  CONTENEDOR
+^: INICIO
+$: FINAL
+-: RANGO
+[]: PATRÓN 
+{}: CONDICIÓN
+*/
+/*En platzi hay un curso completo de expressiones regulares */

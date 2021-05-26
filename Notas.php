@@ -64,7 +64,7 @@
     echo "Quiero aprender $course, y otro texto";
     
 
-?>
+
 ##########################################FORMATO DE DATOS#####################################################################
 ###############################################################################################################
 
@@ -120,3 +120,8 @@ echo strtoupper($text_uno);//monobye
 echo "<br>";
 //Al colocar mb_nombrefuncion con esto formateamos correctamente.
 echo mb_strtoupper($text_dos);//multibyte
+
+
+
+
+?>

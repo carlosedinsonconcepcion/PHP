@@ -76,7 +76,7 @@ $text = "<br><br>PHP es UN LENGUAJE, año 2021, programacion";
 //Remplazar
 $slug = str_replace('PHP', "Toro lio", $text);
 #echo strtolower($slug);
-
+print($slug);
 // Modificacion 
 
 $code = 39;

@@ -102,4 +102,4 @@ $: FINAL
 []: PATRÓN 
 {}: CONDICIÓN
 */
-/*En platzi hay un curso completo de expressiones regulares */
+/*En platzi hay un curso completo de expressiones regulares */co
